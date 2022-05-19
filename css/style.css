@@ -1,0 +1,182 @@
+/* global declaration starts here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --main-color: #0f2f44;
+    --second-color: #ffc712;
+    --third-color: #fff;
+    --primary-font: 'Ubuntu', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+    --third-font: 'Abril Fatface', cursive;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+/* global declaration ends here */
+
+/* header starts here */
+/* welcome part starts here */
+.openHoursAndWelcome p {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: var(--third-color);
+}
+
+.openHoursAndWelcome .container .row p:last-child {
+    margin-left: auto;
+}
+
+.openHoursAndWelcome {
+    background-color: var(--main-color);
+    height: 50px;
+}
+/* welcome part ends here */
+
+/* navbar parts starts here */
+nav {
+    height: 100px;
+}
+
+
+/* logo parts starts here */
+.logo {
+    height: 35px;
+}
+
+.logo img {
+    width: 100%;
+}
+/* logo part ends here */
+
+
+/* navmenu parts starts here */
+.navmenu ul li a {
+    font-size: 16px;
+    color: #222;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.navmenu ul li {
+    padding-left: 39px;
+}
+
+.navmenu ul li:first-child a {
+    color: var(--second-color);
+}
+
+.navmenu {
+    margin-left: auto;
+}
+
+.navmenu ul li {
+    width: auto;
+}
+
+.navmenu ul li:nth-child(7) span {
+    width: 35px;
+    height: 35px;
+    border: 1px solid#e5e5e5;
+    border-radius: 50%;
+    color: #999999;
+}
+
+.navmenu ul li:last-child span {
+    width: 35px;
+    height: 35px;
+    border: 1px solid#e5e5e5;
+    border-radius: 50%;
+    color: #999999;
+}
+/* navmenu ends here */
+/* navbar ends here */
+
+/* main part starts here */
+/* slider area starts */
+#slider  {
+    background-image: url(../img/slider\ vector.png);
+    background-repeat: no-repeat;
+    background-position: 80% bottom;
+    height: 605px;
+    background-color: #e0eeff;
+}
+
+#slider p:first-child {
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 50px;
+    color: #0f2f44;
+    line-height: 70px;
+}
+
+#slider p:nth-child(2) {
+    font-family: var(--third-font);
+    font-size: 80px;
+    color: #0f2f44;
+    padding-bottom: 17px;
+    line-height: 65px;
+}
+
+#slider p:nth-child(3) {
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: 14px;
+    color: #8484bf;
+    padding-bottom: 30px;
+    line-height: 24px;
+}
+
+#slider p:nth-child(4) {
+    font-family: var(--secondary-font);
+    color: #444444;
+    font-size: 16px;
+    padding-bottom: 33px;
+    line-height: 28px;
+}
+
+#slider p:last-child {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    width: 162px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #8484bf;
+}
+
+
+.slider-part {
+    padding-top: 110px;
+    width: 470px;
+    margin-right: auto;
+}
+
